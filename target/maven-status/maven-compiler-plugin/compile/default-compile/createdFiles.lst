@@ -1,0 +1,14 @@
+com\qa\gorest\utils\ExcelUtil.class
+com\qa\gorest\pojo\GoRestUser.class
+com\qa\gorest\utils\JsonPathValidator.class
+com\qa\gorest\constants\APIHttpStatus.class
+com\qa\gorest\pojo\FakeStoreUser.class
+com\qa\gorest\pojo\GoRestUser$GoRestUserBuilder.class
+com\qa\gorest\pojo\FakeStoreUsernameAndPassword$FakeStoreUsernameAndPasswordBuilder.class
+com\qa\gorest\constants\APIConstants.class
+com\qa\gorest\utils\StringUtils.class
+com\qa\gorest\pojo\FakeStoreUser$FakeStoreUserBuilder.class
+com\qa\gorest\configuration\ConfigurationManager.class
+com\qa\gorest\client\RestClient.class
+com\qa\gorest\frameworkexception\APIFrameworkException.class
+com\qa\gorest\pojo\FakeStoreUsernameAndPassword.class

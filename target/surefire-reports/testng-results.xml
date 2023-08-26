@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-26T15:33:42 EDT" name="API Regression Suite" finished-at="2023-08-26T15:33:49 EDT" duration-ms="6796">
+    <groups>
+    </groups>
+    <test started-at="2023-08-26T15:33:42 EDT" name="Go Rest API Schema Validation Test" finished-at="2023-08-26T15:33:45 EDT" duration-ms="2674">
+      <class name="com.qa.gorest.tests.APISchemaValidationsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.gorest.tests.APISchemaValidationsTest@2accdbb5]" started-at="2023-08-26T15:33:42 EDT" name="setUp" finished-at="2023-08-26T15:33:43 EDT" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://gorest.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="resetRestClient()[pri:0, instance:com.qa.gorest.tests.APISchemaValidationsTest@2accdbb5]" started-at="2023-08-26T15:33:43 EDT" name="resetRestClient" finished-at="2023-08-26T15:33:43 EDT" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetRestClient -->
+        <test-method signature="createAPIUserSchemaTest()[pri:0, instance:com.qa.gorest.tests.APISchemaValidationsTest@2accdbb5]" started-at="2023-08-26T15:33:43 EDT" name="createAPIUserSchemaTest" finished-at="2023-08-26T15:33:45 EDT" duration-ms="2268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAPIUserSchemaTest -->
+      </class> <!-- com.qa.gorest.tests.APISchemaValidationsTest -->
+    </test> <!-- Go Rest API Schema Validation Test -->
+    <test started-at="2023-08-26T15:33:45 EDT" name="Create User with Test Data from Data Provider Go Rest API Test" finished-at="2023-08-26T15:33:49 EDT" duration-ms="4091">
+      <class name="com.qa.gorest.tests.CreateUserTest">
+        <test-method is-config="true" signature="resetRestClient()[pri:0, instance:com.qa.gorest.tests.CreateUserTest@7ea9e1e2]" started-at="2023-08-26T15:33:45 EDT" name="resetRestClient" finished-at="2023-08-26T15:33:45 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetRestClient -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.qa.gorest.tests.CreateUserTest@7ea9e1e2]" started-at="2023-08-26T15:33:45 EDT" name="setUp" finished-at="2023-08-26T15:33:45 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://gorest.co.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createNewUserTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.gorest.tests.CreateUserTest@7ea9e1e2]" started-at="2023-08-26T15:33:45 EDT" name="createNewUserTest" data-provider="getUserTestData" finished-at="2023-08-26T15:33:47 EDT" duration-ms="2114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sita]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUserTest -->
+        <test-method is-config="true" signature="resetRestClient()[pri:0, instance:com.qa.gorest.tests.CreateUserTest@7ea9e1e2]" started-at="2023-08-26T15:33:47 EDT" name="resetRestClient" finished-at="2023-08-26T15:33:47 EDT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetRestClient -->
+        <test-method signature="createNewUserTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.gorest.tests.CreateUserTest@7ea9e1e2]" started-at="2023-08-26T15:33:47 EDT" name="createNewUserTest" data-provider="getUserTestData" finished-at="2023-08-26T15:33:48 EDT" duration-ms="1210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ParvathiDevi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUserTest -->
+        <test-method signature="createNewUserTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.gorest.tests.CreateUserTest@7ea9e1e2]" started-at="2023-08-26T15:33:48 EDT" name="createNewUserTest" data-provider="getUserTestData" finished-at="2023-08-26T15:33:49 EDT" duration-ms="751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lakshmi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUserTest -->
+        <test-method is-config="true" signature="resetRestClient()[pri:0, instance:com.qa.gorest.tests.CreateUserTest@7ea9e1e2]" started-at="2023-08-26T15:33:48 EDT" name="resetRestClient" finished-at="2023-08-26T15:33:48 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetRestClient -->
+      </class> <!-- com.qa.gorest.tests.CreateUserTest -->
+    </test> <!-- Create User with Test Data from Data Provider Go Rest API Test -->
+  </suite> <!-- API Regression Suite -->
+</testng-results>

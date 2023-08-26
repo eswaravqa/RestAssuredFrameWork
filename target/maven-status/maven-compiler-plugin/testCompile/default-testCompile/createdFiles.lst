@@ -1,0 +1,10 @@
+com\qa\gorest\tests\FakeStoreAPICreateProduct.class
+com\qa\gorest\tests\APISchemaValidationsTest.class
+com\qa\gorest\tests\CreateUserTest.class
+com\qa\gorest\tests\AmadeusAPITest.class
+com\qa\gorest\tests\FakeStoreAPIJWTTokenTest.class
+com\qa\gorest\tests\CircuitTest.class
+com\qa\gorest\tests\CreateUserTestWithExcelData.class
+com\qa\gorest\tests\ReqResAPITest.class
+com\qa\gorest\tests\GetUserTest.class
+com\qa\gorest\base\BaseTest.class
