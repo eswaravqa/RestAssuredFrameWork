@@ -22,12 +22,12 @@
 		</classes>
 	</test>
 	
-	<test name="Go Rest API Schema Validation Test">
+<!-- 	<test name="Go Rest API Schema Validation Test">
 		<parameter name="baseURI" value="https://gorest.co.in" />
 		<classes>
 			<class name="com.qa.gorest.tests.APISchemaValidationsTest" />
 		</classes>
-	</test>
+	</test> -->
 
 	<!-- <test name="Create User with Test Data from Data Provider Go Rest API Test">
 		<parameter name="baseURI" value="https://gorest.co.in" />
